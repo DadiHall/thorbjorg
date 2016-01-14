@@ -1,0 +1,14 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+.jumbotron {
+	background-image: image-url("front.jpg");
+}
+
+.jumbotron h1{
+	padding-top: 50px;
+	color: #fff;
+	text-transform: uppercase;
+
+}
