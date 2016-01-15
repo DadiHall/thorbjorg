@@ -26,13 +26,17 @@
                 <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CV <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Education</a></li>
-            <li><a href="#">Exhibitions</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><%= link_to "Education & Workshops", cv_education_path, class: "navbutt" %></li>
+            <li><%= link_to "Exhibitions", cv_exhibition_path, class: "navbutt" %></li>
+
+            
+            <li><%= link_to "Art related activities or assignments
+
+", cv_activities_path, class: "navbutt" %></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li><%= link_to "Memberships", cv_membership_path, class: "navbutt" %></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><%= link_to "Grants and Awards", cv_grants_path, class: "navbutt" %></li>
           </ul>
           <li><a href="#">Subscribe to newsletter</a></li>
       </ul>

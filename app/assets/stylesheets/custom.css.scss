@@ -4,11 +4,54 @@
 
 .jumbotron {
 	background-image: image-url("front.jpg");
+	background-size: cover;
 }
 
 .jumbotron h1{
 	padding-top: 50px;
 	color: #fff;
 	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+.jumbotron h3{
+	color: #fff;
+	letter-spacing: 0.7em;
+	font-weigth: 100;
+
 
 }
+
+/* CV sectionið - listar á síðum */
+
+
+.list-group-item{
+border-style: solid;
+    border-width: 1px 0px 1px 0px;
+    }
+
+.list-group .list-group-item{
+font-style: italic;
+font-weight: bold;
+padding-left: 30px;
+padding-right: 200px;
+
+
+}
+
+.list-group .list-group-item p{
+	font-style: normal;
+	font-weight: normal;
+	
+	text-indent:10%;
+	margin: 0 auto;
+	padding: 0 auto;
+	
+}
+
+ul.list-group li{
+	list-style: none;
+	padding-left: 60px;
+
+	}
+
