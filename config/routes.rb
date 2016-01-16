@@ -17,4 +17,6 @@ Rails.application.routes.draw do
 	get 'cv/membership' => 'cv#membership'
 
 	get 'cv/grants'		=> 'cv/grants'
+
+	get'portfolio/fabricprinting' => 'portfolio/fabricprinting'
  end
